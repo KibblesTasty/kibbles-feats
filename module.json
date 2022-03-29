@@ -1,0 +1,30 @@
+{
+"name": "kibbles-feats",
+"title": "Kibbles' Feats",
+"description": "The Foundry module for Kibbles' feats.",
+"author": "KibblesTasty",
+"version": "0.8.0",
+"minimumCoreVersion": "0.6.0",
+"compatibleCoreVersion": "9",
+"manifest": "https://github.com/KibblesTasty/kibbles-feats/releases/download/archive/module.json",
+"download": "https://github.com/KibblesTasty/kibbles-feats/releases/download/archive/kibbles-feats-main.zip",
+"keywords" : [
+			"feats"
+		],
+"packs": [
+			{
+			"name": "kibbles-feats",
+			"label": "Kibbles' Feats",
+			"system": "dnd5e",
+			"path": "packs/kibbles-feats.db",
+			"entity": "Item",
+			"module": "kibbles-feats"
+			}
+		],
+"authors": [
+			{
+			  "name": "KibblesTasty",
+			  "url": "https://kthomebrew.com"
+			}
+		]
+}
